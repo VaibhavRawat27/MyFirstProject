@@ -14,8 +14,89 @@
         android:layout_height="wrap_content"
         android:text="Thank you for the information!"
         android:textSize="50sp"
-        android:layout_marginTop="250dp"
         android:textStyle="bold"
         android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information provided :"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/tvDisplayName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tvDisplayInfo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tvDisplayPhoneNumber"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tvDisplayMarks"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/tvDisplayPercentage"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree with all the information provided above is correct."
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:id="@+id/cbIAgree"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:id="@+id/btnContinue"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:id="@+id/btnBack"/>
 
 </LinearLayout>

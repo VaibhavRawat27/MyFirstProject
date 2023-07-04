@@ -6,15 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:padding="20dp"
+    android:padding="10dp"
     >
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
         android:text="Linear Layout Project"
-        android:textSize="40sp"
+        android:textSize="50sp"
         android:gravity="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,9 +26,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35sp"
+        android:layout_marginTop="20sp"
         android:text="Enter your name"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <EditText
@@ -35,16 +36,17 @@
         android:layout_height="wrap_content"
         android:hint="Please enter your name..."
         android:textColor="#CDDC39"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:inputType="textCapSentences"
-        android:id="@+id/etName"/>
+        android:id="@+id/etName"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Enter information about your college"
-        android:textSize="35sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         />
 
@@ -53,7 +55,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter information...."
         android:textColor="#CDDC39"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:maxLines="5"
         android:minLines="1"
         android:inputType="textCapSentences|textMultiLine"
@@ -64,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Please enter your phone number"
-        android:textSize="35sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <EditText
@@ -74,8 +76,42 @@
         android:inputType="number"
         android:maxLength="10"
         android:textColor="#CDDC39"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:id="@+id/etNumber"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter your marks"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your marks"
+        android:inputType="number"
+        android:textColor="#CDDC39"
+        android:textSize="20sp"
+        android:id="@+id/etMarks"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter your percentage"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your percentage"
+        android:inputType="number"
+        android:textColor="#CDDC39"
+        android:textSize="20sp"
+        android:id="@+id/etPercentage"/>
 
 
     <Button
@@ -86,7 +122,9 @@
         android:text="Validate"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:id="@+id/btnValidate"/>
+        android:id="@+id/btnValidate"
+
+        />
 
     <Button
         android:layout_width="match_parent"

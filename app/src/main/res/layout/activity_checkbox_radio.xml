@@ -15,6 +15,7 @@
         android:layout_marginLeft="15sp"
         android:textStyle="bold" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,7 +41,7 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="feMale"
+        android:text="female"
         android:textSize="30sp"
     />
 
@@ -56,10 +57,12 @@
 
 
 
+
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I agree with the above information provided"
+        android:text="I agree all term and conditions."
         android:id="@+id/cbIAgree"
         android:textSize="30sp"
         android:layout_marginTop="15sp"
